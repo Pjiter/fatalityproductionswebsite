@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <span style="font-size:30px;cursor:pointer;font-family:Tahoma;color:white;" onclick="openNav()">&#9776; Menu</span>
+    <span onclick="openNav()">&#9776; Menu</span>
 
     <script>
 		function openNav() {
