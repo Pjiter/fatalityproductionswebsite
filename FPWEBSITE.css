@@ -96,3 +96,16 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+/* Copyright Sign */
+footer{
+text-align: right;
+color: white;
+}
+
+/*Menu Button*/
+span{
+font-size:30px;
+cursor:pointer;
+font-family:Tahoma;
+color:white;
+}
