@@ -19,7 +19,7 @@
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Timeline</a>
             <a href="#">Music</a>
             <a href="#">Backgrounds</a>
