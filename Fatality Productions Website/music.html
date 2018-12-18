@@ -1,0 +1,174 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <title> Fatality Productions </title>
+    <link rel="stylesheet" type="text/css" href="css/FPWEBSITE.css">
+    <link rel="icon" href="img/YTLOGO.png" type="image/gif" sizes="512x512">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="music.html">Music</a>
+            <a href="#">Backgrounds</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <span onclick="openNav()">&#9776; Menu</span>
+
+    <script>
+		function openNav() {
+		  document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.height = "0%";
+		}
+    </script>
+	
+	<img src="img/YTLOGO.png" class="YTLOGO"> 
+		<button class="YTLOGOTEKST" input type="button" value="Open Window" onclick="window.open('Https://www.youtube.com/c/fatalityproductions')"> Fatality Productions </button>
+	</img>
+	
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <h1>Music</h1>
+        <button class="FPBUTTON" input type="button" value="Open Window" onclick="window.open('Https://www.youtube.com/c/fatalityproductions')"><h1 style="font-size:50px">Fatality Productions</h1></button>
+        <p>Content Creators</p>
+		<img src="img/scrolldown.png"></img>
+    </div>
+	
+	<div id="myBtnContainer">
+	  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+	  <button class="btn" onclick="filterSelection('Trap')"> Trap</button>
+	  <button class="btn" onclick="filterSelection('Bass')"> Bass</button>
+	  <button class="btn" onclick="filterSelection('Rap')"> Rap</button>
+	</div>
+
+	<!-- Portfolio Gallery Grid -->
+	<div class="row">
+	  <div class="column Trap">
+		<div class="content">
+			<embed width="420" src="https://www.youtube.com/v/U6dtJjeYGQw">
+		  <h4>Sefa Taskin & X-Ray - Phoenix</h4>
+		  <p> ass eating made simple</p>
+		</div>
+	  </div>
+	  <div class="column Rap">
+		<div class="content">
+		<embed width="420" src="https://www.youtube.com/v/B3PfLMR1n-M&t">
+		  <h4>PewDiePie & Party In Backyard - Bitch Lasagna (Dylanlocke Remix)(v1.2)</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	  <div class="column Bass">
+		<div class="content">
+		<embed width="420" src="https://www.youtube.com/v/J5qEZzgxpQs">
+		  <h4>Major Lazer & The Partysquad - Original Don (FLOSSTRADAMUS Remix)(Party Favor Edit)</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	  
+	  <div class="column Bass">
+		<div class="content">
+		  <embed width="420" src="https://www.youtube.com/v/aywZ60Pblqg">
+		  <h4>B3RROR - Gamazi</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	  <div class="column Rap Trap">
+		<div class="content">
+		<embed width="420" src="https://www.youtube.com/v/BSZfFcplEPM">
+		  <h4>Skan & Krale - No Glory (feat. M.I.M.E & Drama B)</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	  <div class="column Rap Trap">
+		<div class="content">
+		<embed width="420" src="https://www.youtube.com/v/V40hZAZaShA">
+		  <h4>Martin Garrix & Justin Mylo - Burn Out (Moilatch Remix)</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+
+	  <div class="column Rap Trap Bass">
+		<div class="content">
+		  <embed width="420" src="https://www.youtube.com/v/mi9UoKdqgW4">
+		  <h4>Skan - Can't Give It Up (feat. Highdiwaan)</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	  <div class="column Rap Trap Bass">
+		<div class="content">
+		<embed width="420" src="https://www.youtube.com/v/Q7DMS4as1NA">
+		  <h4>PURGE & Clips X Ahoy - Another Memory (feat. Aviella)</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	  <div class="column Rap Trap Bass">
+		<div class="content">
+		<embed width="420" src="https://www.youtube.com/v/GJFZRSf4u80">
+		  <h4>Tomline & Engincan Onar - Feelbadz</h4>
+		  <p>Lorem ipsum dolor..</p>
+		</div>
+	  </div>
+	<!-- END GRID -->
+	</div>
+	
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("column");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+		w3RemoveClass(x[i], "show");
+		if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+		if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+		while (arr1.indexOf(arr2[i]) > -1) {
+		  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+		}
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+		var current = document.getElementsByClassName("active");
+		current[0].className = current[0].className.replace(" active", "");
+		this.className += " active";
+	  });
+	}
+	</script>
+	
+
+    <footer>&copy; 2018 Fatality Productions </footer>
+</body>
+</html>

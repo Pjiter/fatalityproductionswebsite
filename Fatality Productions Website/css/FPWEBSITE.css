@@ -1,6 +1,15 @@
 ﻿body {
     background-color: #1a1a1a;
 }
+.subcount {
+	border: 0; 
+	width:300px; 
+	height:80px; 
+	background-color: white;
+	margin-left: 83%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
 
 .overlay {
     height: 0%;
@@ -293,29 +302,6 @@ timeline:body {
   }
 }
 
-body, html, .main {
-  height: 100%;
-}
-
-section {
-  min-height: 100%;
-}
-
-.counter {
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-	font-size: 100px;
-	text-align: center;
-	margin: 0px;
-}
-	
-.counter1 {
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-	font-size: 60px;
-	text-align: center;
-}
-
 #mySidenav a {
   position: absolute;
   left: -80px;
@@ -351,6 +337,72 @@ section {
   top: 1280px;
   background-color: #555;
 }
-	
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  background-color: grey;
+  color: black;
+  border: 2px solid #555555;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
 
 	
