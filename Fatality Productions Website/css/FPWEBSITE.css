@@ -141,11 +141,44 @@ span {
 	background-color: transparent;
 }
 
-.YTLOGO:hover {
-  background-color: #1a1a1a;
-  color: white;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.TWLOGO {
+	width: 40px;
+	margin-left: 33%;
+	position: absolute;
+	top: 5px;
+	color: white;
 }
+
+.TWLOGOTEKST {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	margin-left: 35%;
+	top: 5px;
+	border: none;
+	background-color: transparent;
+}
+
+.INLOGO {
+	width: 40px;
+	margin-left: 56%;
+	position: absolute;
+	top: 5px;
+	color: white;
+}
+
+.INLOGOTEKST {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	margin-left: 58%;
+	top: 5px;
+	border: none;
+	background-color: transparent;
+}
+
 
 
 .FPBUTTON {
