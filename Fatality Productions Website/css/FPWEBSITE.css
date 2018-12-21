@@ -11,6 +11,26 @@
 	color: black;
 }
 
+.subbutton {
+	border: 3px white solid;
+	width: 300px;
+	height: 80px;
+	margin-left: 83%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-weight: 900;
+	background-color: white;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.subbutton:hover {
+	background-color: #1a1a1a;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+}
+	
+
 .overlay {
     height: 0%;
     width: 100%;
