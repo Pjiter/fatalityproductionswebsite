@@ -16,7 +16,7 @@
             <a href="music.html">Music</a>
             <a href="backgrounds.html">Backgrounds</a>
             <a href="#">Shop</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
         </div>
     </div>
 
@@ -71,14 +71,26 @@
 	</div>
 	<div class="column Trap Bass">
 		<div class="content">
-			<embed width="600" height="300" src="https://www.youtube.com/v/4yx85sav8xs&">
-		  <h4>Loudside - Samurai</h4>
+			<embed width="600" height="300" src="https://www.youtube.com/v/b1eg6C1Ukt0">
+		  <h4>Mariah Carey - All I Want For Christmas Is You (Mattrixx Remix)</h4>
 		</div>
-	  </div>
+	</div>
+	<div class="column Trap Bass">
+		<div class="content">
+			<embed width="600" height="300" src="https://www.youtube.com/v/n8sLAvF0T2M">
+		  <h4>Johnny Marks - Rudolph The Red-Nosed Reindeer (CSMS Trap Remix)</h4>
+		</div>
+	</div>
 	<div class="column Trap">
 		<div class="content">
 			<embed width="600" height="300" src="https://www.youtube.com/v/aovoChlDPHw">
 		  <h4>Mykola Leontovych - Carol Of The Bells (Goblins From Mars Trap Remix)</h4>
+		</div>
+	  </div>
+	  <div class="column Trap Bass">
+		<div class="content">
+			<embed width="600" height="300" src="https://www.youtube.com/v/4yx85sav8xs&">
+		  <h4>Loudside - Samurai</h4>
 		</div>
 	  </div>
 	<div class="column Bass Trap">
@@ -189,6 +201,27 @@
 		current[0].className = current[0].className.replace(" active", "");
 		this.className += " active";
 	  });
+	}
+	</script>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Go To Top</button>
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("myBtn").style.display = "block";
+	  } else {
+		document.getElementById("myBtn").style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
 	}
 	</script>
 	
